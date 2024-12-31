@@ -1,0 +1,111 @@
+
+
+body {
+    background-color: rgb(245, 216, 179);
+    font-family: Arial, sans-serif;
+}
+
+.to-do-list-section {
+    width: 50%;
+    height: 100%;
+    margin: 5% 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2%;
+    background-color: rgb(164, 227, 243);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.to-do-list-header {
+    position: relative;
+    height: 20%;
+    margin: 2% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid black;
+    border-radius: 1px;
+}
+
+.to-do-list-header h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+
+.to-do-list-header .add-task-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.to-do-list-header .task-name-input {
+    width: 250px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.to-do-list-header .task-add-btn {
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.to-do-list-content { 
+    position: relative;   
+    height: 80%;
+    margin: 2% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;  
+    border: 1px solid black;
+    border-radius: 1px; 
+    
+}
+
+.to-do-list-content .task-analytics-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.to-do-list-content ul {
+    margin: 0 0;
+    list-style-type: none;
+}
+
+li {
+    margin: 5px 40px 5px 0px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    
+}
+
+.edit-btn, .delete-btn {
+    float: right;
+    color:crimson;
+    cursor: pointer;
+    margin: 3px 5px;
+    border: none;
+    padding: 3px 5px;
+    background: none;
+} 
+  
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+    border: 1px solid gray;
+}
+

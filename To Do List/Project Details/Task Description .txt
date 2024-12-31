@@ -1,0 +1,36 @@
+
+
+# Required Features:
+
+Here are the following features you will need to complete:
+
+1. Add Tasks
+2. Read Tasks
+3. Update Tasks
+4. Delete Tasks
+5. Mark Task Completed or Incomplete
+6. Count Number of Complete and Incomplete Tasks
+7. Save the tasks in local storage so that on closing browser still task saved.
+This is the main feature that must be even in basic to-do list. Bcz we make this
+app for people who forget things.
+
+The final project should look similar to the picture in project details folder 
+to take an idea of look & feel.
+
+
+# Later-On add the advanced Features:
+
+These are not required in basic to-do list but required in full flash advanced todo list app.
+Challenge yourself to add more advanced features to your todo application. Here is a list of possible features to give you a few ideas:
+
+Sign-in and Sign-up
+Save user history when signed in or save to local storage.
+Date and time task was added.
+Delete all items.
+A trash page of deleted items.
+Success notifications for completed, edited and deleted task.
+Show completed tasks, all tasks, active tasks.
+search bar to search task based on input query.
+
+
+
